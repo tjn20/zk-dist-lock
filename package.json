@@ -1,0 +1,41 @@
+{
+  "name": "zk-dist-lock",
+  "private": false,
+  "version": "0.0.1",
+  "description": "A high-performance, Resource-Isolated distributed locking library for Node.js. Unlike simple TTL-based locks, this package utilizes ZooKeeper’s consensus protocol to provide a globally ordered synchronization primitive with built-in Fencing Tokens and Re-entrancy.",
+  "keywords": [
+    "zookeeper",
+    "distributed-lock",
+    "zk",
+    "nodejs",
+    "typescript",
+    "microservices"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "TJN",
+    "url": "https://github.com/tjn20"
+  },
+  "bugs": {
+    "url": "https://github.com/tjn20/zk-dist-lock/issues"
+  },
+  "homepage": "https://github.com/tjn20/zk-dist-lock#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjn20/zk-dist-lock"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "zookeeper": "^7.0.0",
+    "tsup": "^8.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.10",
+    "typescript": "^5.9.2"
+  }
+}
