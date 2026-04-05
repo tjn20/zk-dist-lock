@@ -14,7 +14,7 @@
 
 A high-performance, Resource-Isolated distributed locking library for Node.js. Unlike simple TTL-based locks, this package utilizes ZooKeeper’s consensus protocol to provide a globally ordered synchronization primitive with built-in Fencing Tokens and Re-entrancy.
 
-![My Image] <img width="1680" height="794" alt="Image" src="https://github.com/user-attachments/assets/38283a92-a336-4f1d-a220-1b6eb11aa6d7" />
+<img width="1680" height="794" alt="Image" src="https://github.com/user-attachments/assets/38283a92-a336-4f1d-a220-1b6eb11aa6d7" />
 
 ## Distributed Consensus
 
